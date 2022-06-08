@@ -1,0 +1,20 @@
+# type the below two lines into your terminal:
+# conda env create --file cron.yml
+# conda activate cronjob
+
+name: cronjob
+
+dependencies:
+  - python
+  - jupyter
+  - ipython
+
+# to verify environments:
+# conda info --envs
+
+# to remove environment:
+# conda env remove -n cronjob
+
+# If you update the `cron.yml` you can run the following to update the
+# environment with your changes:
+# conda env update --file cron.yml --prune
