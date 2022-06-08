@@ -1,6 +1,7 @@
 ### CRON JOB INFO
 # order:
     minute hour day(month) month day(week)
+
 # minute:
     *  any value
     , value list separator
