@@ -11,9 +11,11 @@ filename = os.path.join(dir_path, "test_log.log")
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
+# file handler
 file_handler = logging.FileHandler(filename)
 file_handler.setLevel(logging.INFO)
 file_handler.setFormatter(logging.Formatter("%(asctime)s - %(levelname)s - %(message)s"))
+
 logger.addHandler(file_handler)
 
 def main():
