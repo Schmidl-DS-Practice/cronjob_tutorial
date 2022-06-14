@@ -5,6 +5,8 @@ dir_path = os.path.dirname(os.path.realpath(__file__))
 ## could do just, but don't
 # filename = "test_log.log"
 filename = os.path.join(dir_path, "test_log.log")
+print(dir_path)
+print(filename)
 
 ## Logger
 # formatter = "%(asctime)s - %(levelname)s - %(message)s"
